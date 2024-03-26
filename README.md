@@ -3,3 +3,4 @@ Este repositorio contendrá la parte del backend del proyecto final para la mate
 
 Integrantes
 -Soto Huerta Gustavo Isaac
+-Rivera Lopez David Zaid
