@@ -1,0 +1,97 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		
+		
+		\LARGE Universidad Nacional Autónoma de México\\[0.5cm]
+		\LARGE Facultad de Ingeniería\\[1.5cm]
+		
+		
+		\Huge\textbf{Proyecto Final}\\[2.5cm]
+		
+		\Large{Integrantes:}
+		\begin{itemize}
+			\item Miguel
+			\item David
+			\item Gustavo Isaac Soto Huerta (318201458)
+			\item Brayan
+			\item Andrés
+			\item Atzin
+		\end{itemize}
+		
+		\vspace{2.5cm}
+		
+		
+		\Large 
+		Materia: Bases de Datos\\
+		Grupo: 1\\[1cm]
+		
+	\end{titlepage}
+	
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	\section{Roles}
+	\begin{description}[font=$\bullet$\scshape\bfseries]
+		\item[Project Manager] Brayan
+		\item[Database Admin (DBA)] Andrés, David
+		\item[Backend Developer] Gustavo, Miguel
+		\item[Frontend Developer] Andrés, Miguel, Brayan
+		\item[UI Designer] Brayan, Atzin
+		\item[Tester] David, Atzin
+	\end{description}
+	
+	\section{Miembros}
+	\begin{itemize}
+		\item Miguel
+		\item David
+		\item Gustavo Isaac Soto Huerta
+		\item Brayan
+		\item Andrés
+		\item Atzin
+	\end{itemize}
+	
+	\section{Análisis}
+	\subsection{Primera sesión (14-04-2024)}
+	En nuestra primera sesión, se llevó a cabo la asignación correspondiente de tareas para cada uno de los integrantes del equipo, y que se muestra en este documento, al inicio del mismo. Además, se realizó un pequeño bosquejo a la realización de nuestro “Modelo Entidad Relación”, donde se tuvieron en cuenta los siguientes puntos importantes para la realización de este mismo:
+	\begin{itemize}
+		\item La entidad empleado tendrá una generalización a los puestos de trabajo que este puede tener. Asi como esta generalización tiene una relación total y de traslape (de acuerdo a los requerimientos) para cada uno de los subtipos presentes.
+		\item Los nombres de los empleados, clientes y dependientes estarán lo más detallado posible (haciendo referencia tanto a su nombre de pila, apellido paterno y apellido materno, el cual será un atributo opcional).
+		\item El empleado puede o no necesariamente, tener un dependiente.
+		\item Al igual que el nombre, el domicilio de los clientes y de los empleados estará lo mayor desglosado posible (con calle, código postal, colonia, número exterior y número interior siendo este un atributo opcional).
+		\item La relación entre orden y producto tendrá como atributos cantidad y precio, para un mejor manejo de ambos al futuro.
+		\item La entidad producto tendrá el atributo numVentas para, a futuro, consultar que producto ha sido el más vendido de nuestro registro.
+	\end{itemize}
+	
+	\subsection{Segunda sesión (17-04-2024)}
+	De acuerdo a los bosquejos realizados en la sesión pasada, se realizó el Modelo Entidad Relación definitivo, el cual, después de varias modificaciones, quedaría de la forma en la que se presenta en el diseño.
+	
+	\subsection{Tercer Sesión (21-04-2024)}
+	Se empezó a plantear a groso modo el Modelo Relacional (MR), a partir de nuestro Modelo Entidad Relación (MER). Principalmente, se quedó de acuerdo en los tipos de datos que cada uno de los atributos iba a tener, así como el correcto mapeo del MER realizado a nuestro MR.
+	
+	\section{Diseño}
+	Gracias al análisis realizado en el punto anterior, pudimos diseñar de manera efectiva nuestro “Modelo Entidad - Relación”, el cual quedó de la siguiente manera:
+	% Aquí iría la imagen del diseño o un enlace a ella si es necesario.
+	
+	\section{Programación}
+	% Detalles de la programación.
+	
+	\section{Pruebas}
+	% Detalles de las pruebas.
+	
+	\section{Operaciones}
+	% Detalles de las operaciones.
+	
+\end{document}
