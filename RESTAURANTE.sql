@@ -106,7 +106,7 @@ CREATE TABLE "PRODUCTO"(
 );
 
 CREATE TABLE "TELEFONO"(
-"rfcTel" char(13) NOT NULL, telefono integer NOT NULL,
+"rfcTel" char(13) NOT NULL, telefono bigint NOT NULL,
   CONSTRAINT "TELEFONO_pkey" PRIMARY KEY("rfcTel")
 );
 
